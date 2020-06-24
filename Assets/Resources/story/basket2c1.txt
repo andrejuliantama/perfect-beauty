@@ -1,0 +1,29 @@
+Player "One cup of milk tea won't ever kill me!!" playSound(CorrectAnswer)
+
+"Thank you so much! I will drink this later!"
+
+Putra "Glad you like it! It's good to consume sweet things when you want to booze your spirit, you know?" setExpression(default)
+
+Player "Hahaha, I feel the same! I actually have a sweet tooth. I can eat one bag of chocolate in a minute if my Mom didn't stop me."
+
+"But I won't do it anymore starts from now on, though."
+
+Putra "Whoaa, that's amazing! You really had a big appetite toward sweet things, don't ya?" setExpression(surprised)
+
+Player "U-uh... Is it that bad..?"
+
+Putra "Nah, it's the opposite! Let's have a battle someday! We will see who's faster to eat that chocolate!" setExpression(smiling)
+
+Player "Hahaha, sure! Just call me when you're ready!"
+
+"What did just happen? I'm actually making a conversation with Putra!" disableChar(Putra)
+
+"Is this actually happen because I started to increase my fitness and dieting? Did it really give me some effect?"
+
+"But... It would be bad if Putra really challenge me to eat that much chocolate.... The effects will be gone surely!"
+
+"Uh-oh.... Let's hope he will forget that challenge...."
+
+Narrator "You feel happy!!!" setStatus(happiness[5])
+
+closeDialogue() reloadLastChapterProgress()

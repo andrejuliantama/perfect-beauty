@@ -1,0 +1,9 @@
+Player "Okay, let’s decide what to do for tomorrow!" loadScene(Laptop) PlayMusic(Laptop)
+
+closeDialogue()
+
+checkEvent()
+
+loadScene(Activity)
+
+loadScene(Evaluation)

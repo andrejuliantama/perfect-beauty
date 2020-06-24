@@ -1,0 +1,11 @@
+Player "… Do I look that fat? Do my body look weird when I dribble?"
+
+Player "…. Uh… I feel uncomfortable being here… Let’s go home earlier."
+
+"You feel bad...." setStatus(confident[-5])
+
+closeDialogue() checkEvent()
+
+loadScene(Activity)
+
+nextDay() loadChapter(w1d4)

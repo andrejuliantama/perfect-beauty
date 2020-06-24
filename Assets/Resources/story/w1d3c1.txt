@@ -1,0 +1,11 @@
+Player "It’s okay. Don’t mind them. Just prove it to them that I can be better!!" playSound(CorrectAnswer)
+
+Player "And for their bad mouth, I will make sure I told all the girls in our team about how jerk they are!"
+
+"You feel confident!!" setStatus(confident[5])
+
+closeDialogue() checkEvent()
+
+loadScene(Activity)
+
+nextDay() loadChapter(w1d4)

@@ -1,0 +1,19 @@
+Player "Em... Maybe a little...?
+
+Mila "Sure! Here you go!!" setExpression(smiling)
+
+Player "Deliciouss!!!"
+
+Satya "Hey, remember you're on diet! You will gain 5 more kilos if you're going to eat all that!" disableChar(Mila) setExpression(smiling)
+
+Mila "Satya!! Don't say that!! She won't gain that much eating only this!!" disableChar(Satya) setExpression(annoyed)
+
+Satya "You know that sweet foods had much calories right??" disableChar(Mila) setExpression(smiling)
+
+Mila "Satyaa!!! Stopp!!" disableChar(Satya) setExpression(annoyed)
+
+Player "Ugh... Now I feel bad after eating one bite of an ice cream..." disableChar(Mila)
+
+"I must remember to eat less, and work out more!!!"
+
+closeDialogue() reloadLastChapterProgress()

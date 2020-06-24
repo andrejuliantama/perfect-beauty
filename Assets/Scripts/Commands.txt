@@ -1,0 +1,11 @@
+Commands for Perfect Beauty VN Development
+
+Speaker "Dialog"                                                                ex: Mila "Hello there"
++"Dialog"                                                                       ex: +"How r u"
+
+initialChoice()
+insertPlayerName()
+
+setBackground(bg)                                                               ex: setBackground(Classroom)
+setExpression(expression)                                                       ex: setExpression(default)
+disableChar(sprite)                                                             ex: disableChar(Mila)

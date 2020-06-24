@@ -1,0 +1,45 @@
+Player "Okay, let’s decide what to do for tomorrow!" loadScene(Laptop) playMusic(Laptop)
+
+closeDialogue()
+
+Player "Today there's a basketball club meeting! I must hurry!" loadScene(SportsField) playMusic(VisualNovel) playSound(basketball)
+
+Player "Uh oh! It looks like everyone already here!"
+
+Female Member 1 "Hey Player!! Hurry come here!"
+
+Player "Sorry I'm a little bit late!"
+
+Female Member 1 "It's okay. We haven't started yet! Look! The male team is still waiting for their member too!"
+
+Player "Sometimes, both female team and male team are practice and have a meeting together. So we usually met each other."
+
+Player "It looks like our team captain is done talking to male team captain... She's coming this way."
+
+Player "But uh... Why the male captain also coming this way..?"
+
+Putra "Hey! I see you girls are very energetic today! Good job! Don't forget to join the practice!" setExpression(default)
+
+Female Member 1 "O-of course! We will!! Right, Player??" disableChar(Putra)
+
+Player "Uh! Right! We will...!"
+
+Putra "Okay then, see you guys later!" setExpression(default)
+
+Player "Uwaah... So embarrasing! But I'm so happy he came to talk to me...." disableChar(Putra)
+
+Male Member 1	"Woohoo~! Look at that! Just how many girls left did you wanna seduce for, captain?"
+
+Putra "....What are you talking about? I just give them encouragement." setExpression(annoyed)
+
+Male Member 2	"No matter how much nice words you gave to them, It won't be enough, bro. With that kind of body, they can't even dribble the ball in a correct way."
+
+Male Member 1	"Ouwwww, that's harsh ahahaha!"
+
+Male Member 3	"If they heard you, you will be dead!" disableChar(Putra)
+
+Player "Ugh…. They're so loud... Too bad I can heard it…."
+
+Player "What should I do...?"
+
+makeChoice(Don't=listen=to=them:...=is=that=really=how=is=it?)

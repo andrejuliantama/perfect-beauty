@@ -1,0 +1,15 @@
+Player "But... I really want to buy the new arrival novel that release today...."
+
+Mila "Well? In that case I will accompany you!" setExpression(smiling)
+
+Player "Really Mila? Thank you!!! You're the best!!"
+
+Narrator "That night...." loadScene(Black) disableChar(Mila)
+
+Player "Uh oh!!! I forgot I have a homework!!!" loadScene(RoomNight)
+
+"Ugh... I didn't catch the lesson well because I was sleepy throughout the class... Uh...."
+
+"Oh no... I hope I do it well...."
+
+closeDialogue() reloadLastChapterProgress()

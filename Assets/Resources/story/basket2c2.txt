@@ -1,0 +1,21 @@
+Player "Emmm... Thank you for the offer but, I'm sorry, actually I didn't drink this..."
+
+Putra "You didn't drink milk tea??" setExpression(surprised)
+
+Player "It's not like that, but um-... It's just too sweet for me..."
+
+Putra "Oh, it's okay! But... It's the first time I see a girl who didn't like sweet things tho!" setExpression(surprised)
+
+"I thought all the girl are a sweet tooth, at least!" setExpression(surprised)
+
+Player "Um-....."
+
+Putra "Okay, then I will continue giving this to everyone! Keep the good job at practice!" setExpression(default)
+
+Player "T-thank you....."
+
+"Uh.... I feel bad for lying.... I actually want that milk tea if it isn't for the sake of my diet...." disableChar(Putra)
+
+Narrator "You feel sad..." setStatus(happiness[-5])
+
+closeDialogue() reloadLastChapterProgress()

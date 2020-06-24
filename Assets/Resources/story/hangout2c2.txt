@@ -1,0 +1,17 @@
+Player "But.... We already decided what to buy!!"
+
+Mila "Right... We already collect some money just for today!!" setExpression(annoyed)
+
+Satya "Ugh... Fine!!! Just go there, be hungry, eat much, and then gain 10 more kilos!!!" disableChar(Mila) setExpression(annoyed)
+
+Player "W-What did you say!!! Hey!! Come back here!!!"
+
+Mila "Uh... What should we do then, Player?" disableChar(Satya) setExpression(thinking)
+
+Player "Ugh... Because of what he said, I'm not in the mood to go....."
+
+Player "Well he's right tho!! I'm on diet so I should control what I eat!!"
+
+Player "Better remember not eat to much then...."
+
+closeDialogue() reloadLastChapterProgress()

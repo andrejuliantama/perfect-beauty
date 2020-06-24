@@ -1,0 +1,9 @@
+Player "Okay, let’s decide what to do for tomorrow!" loadScene(Laptop) playMusic(Laptop)
+
+closeDialogue()
+
+checkEvent()
+
+loadScene(Activity)
+
+nextDay() loadChapter(w1d7)

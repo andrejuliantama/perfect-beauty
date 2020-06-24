@@ -1,0 +1,19 @@
+Player "Hah.... I'm so tired on today's practice..." loadScene(SportsField) playMusic(VisualNovel)
+
+"Wait, It's that Putra? He's giving everyone a milk tea!"
+
+"It seems like he bought it for everyone... What a kind person! He's really get that generous-captain-vibe on him..."
+
+"Oh! He's coming this way!"
+
+Putra "Hey there! Good job for today! It's everyone share! Do you like this drink? If so, here take it!" setExpression(default)
+
+Player "Eh, um-"
+
+"Uh oh-... I like it.... But actually, that drink have much calories in it! This is actually bad for my diet...
+
+"But It also looks really bad if I refuse to accept it..."
+
++"What should I do?"
+
+makeChoice(Take=it:Refuse=it)

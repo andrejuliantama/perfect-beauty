@@ -1,0 +1,19 @@
+Player "Let's have a bet! I will prove it to you that next week I will still on diet!" playSound(CorrectAnswer)
+
+Satya "Fine. If you win, I would buy you some ice cream. A jumbo one." setExpression(smiling)
+
+Player "Deal!!! …. But, wait…."
+
+"Hey! I'm on diet!! Don't give me an jumbo ice cream!!"
+
+Satya "Hahahaha!!! Apparently you're still smart enough to realize it." setExpression(smiling)
+
+Player "Ugh.... I won't give up!! And I will smack him later!!" disableChar(Satya)
+
+Narrator "You feel confident!!" setStatus(confident[5])
+
+closeDialogue() checkEvent()
+
+loadScene(Activity)
+
+nextDay() loadChapter(w1d5)

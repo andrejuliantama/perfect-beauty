@@ -1,0 +1,15 @@
+Player "Emm... I guess today I just feel like wanting to exercise more? It's totally normal, right? Hehehe"
+
+Female Member 1 "Ehh? You call running crazily like that is a normal thing? You're so weird, Player!"
+
+Player "E-eh... Is it really that weird...?"
+
+Female Captain "Well well! Nevermind that! Let's go back to practice!"
+
+Player ".... They  both looked at me with a doubting glance..."
+
+"I guess I will have them thinking I'm weird for a while..."
+
+Narrator "You feel sad..." setStatus(happiness[-5])
+
+closeDialogue() reloadLastChapterProgress()

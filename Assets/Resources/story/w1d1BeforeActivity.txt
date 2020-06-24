@@ -1,0 +1,25 @@
+Mila "Player! Let’s go grab some crepes!" setExpression(smiling) playMusic(VisualNovel)
+
+Player "Umm… Mila. I’m sorry…"
+
+"I think starting today I won't be able to grab a snack again with you…"
+
+Mila "Eh?? What happened Player?? Did something happen?" setExpression(thinking)
+
+Player "Uh, no…. Actually…"
+
+"I just trying to lose some weight and trying to less snacking from now on…"
+
+Mila "But… I don’t think you need to lose some weight… Player…" setExpression(thinking)
+
+Player "Well, that’s how you think. But I want to try it...."
+
+"Will you rooting for me, Mila?"
+
+Mila "But... Why so sudden, tho...?" setExpression(default)
+
+"Still, are you sure...? Don’t force yourself to hard, okay?" setExpression(default)
+
+Narrator "What should I say?"
+
+makeChoice(I=will,=thank=you!:Okay,=okay!=It's=not=like=you=know=how=I=feel...)

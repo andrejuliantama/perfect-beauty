@@ -1,0 +1,15 @@
+Player "Okay! I think I did really well at today practice!!" loadScene(SportsField) playMusic(VisualNovel)
+
+Female Captain "Hey, Player. I see you're in high spirit today. Did anything special happen?"
+
+Female Member 1 "Yeah, it's unusual for you to run five laps at warming up session! We almost thought you've been possesed by something, you know?"
+
+Player "Hey! Don't make it sounds terrible! Isn't that good to exercise more harder than before?"
+
+Female Captain "Well, nobody ever said it's a bad thing... But why so sudden?"
+
+Player "Should I tell them my real intention..?""
+
+"Emm... Actually, I-"
+
+makeChoice(Tell=the=truth:Trying=to=avoid=the=topic)

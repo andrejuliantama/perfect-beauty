@@ -1,0 +1,23 @@
+Teacher "Okay, this is it for today! Take care on your way home!"
+
+Mila "Player!! Let's go! Satya already waiting outside!" setExpression(smiling)
+
+Player	"Oh! Here he comes!"
+
+Satya "Hey, did you guys finished? Let's go!" disableChar(Mila) setExpression(default)
+
+Mila "Hm? What is that thing you're holding, Satya?" disableChar(Satya) setExpression(default)
+
+Satya "Oh this? One of the seller from canteen give me an extra ice cream earlier." disableChar(Mila) setExpression(default)
+
+Mila "Oh my God!! You're so lucky!! That ma'am must be giving it to you because she likes you!!" disableChar(Satya) setExpression(smiling)
+
+Satya "Stop scaring me!!! Besides-... You guys can take it. I don't really like this flavour." disableChar(Mila) setExpression(annoyed)
+
+Mila "ehh?? Seriously?? Thank you, Satya!!! Shall we eat it then, Player??" disableChar(Satya) setExpression(default)
+
+Player "Uh... But if we're going to eat after this, I think there's too much calories I consume for today!"
+
+"What should I do?"
+
+makeChoice(Give=it=all=to=Mila:Eat=it)

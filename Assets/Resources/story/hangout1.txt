@@ -1,0 +1,13 @@
+Teacher "Okay, this is it for today! Don't forget to give your homework tomorrow morning!" loadScene(Classroom) playMusic(VisualNovel)
+
+Player "Finally class is over! I'm so sleepy...."
+
+Mila "Player!! Class is over! We are going to book store today, right??" setExpression(smiling)
+
+Player "Oh! But we have a lot of homework for tomorrow..."
+
+Mila "Oh!! You're right! Then what shall we do??" setExpression(default)
+
+Player "Hmmm... What shall we do for today?" 
+
+makeChoice(Doing=homework=together:Go=to=bookstore)

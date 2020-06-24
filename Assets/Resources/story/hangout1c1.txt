@@ -1,0 +1,21 @@
+Player "Emm... How about for today we're doing homework together at my house?" playSound(CorrectAnswer)
+
+Mila "Oh! That's a great idea! I agree! I will chat my Mom first, okay?" setExpression(smiling)
+
+Player "Sure!!"
+
+"Mila is one of the smartest one in the class! I'm sure she can teach me a lot!" disableChar(Mila)
+
+"Besides.... I'm sleepy throughout the class and didn't really catch the lesson well, so.... em.... hehe"
+
+Mila "What's wrong, Player? setExpression(default)
+
+Player "Oh! no! It's nothing! Shall we go?"
+
+Mila "Yeah! Let's go!" setExpression(smiling)
+
+Player "I'm so lucky to have such a kind friend like Mila! I should repay her someday!!" disableChar(Mila)
+
+Narrator "You feel happy!!!" setStatus(happiness[5])
+
+closeDialogue() reloadLastChapterProgress()

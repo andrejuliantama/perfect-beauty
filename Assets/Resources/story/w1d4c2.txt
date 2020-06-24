@@ -1,0 +1,17 @@
+Player "Uh… If he said it like that… I become unsure myself…."
+
+Satya "See? What I told you? You look unsure, so better stop this, go back to canteen, and buy me some crepes." setExpression(default)
+
+Player "Noo!!! I won't! I can do this! I- I think…."
+
+Satya "Well, whatever. Don't come to me when you're in verge of dying from hunger." setExpression(annoyed)
+
+Player	"Uh….." disableChar(Satya)
+
+Narrator "You feel bad...." setStatus(confident[-5])
+
+closeDialogue() checkEvent()
+
+loadScene(Activity)
+
+nextDay() loadChapter(w1d5)

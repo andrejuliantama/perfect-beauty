@@ -1,0 +1,25 @@
+Player "Hmmm... I wonder if it will bring any benefit if we help him, Mila...." playSound(CorrectAnswer)
+
+Mila "Hmmm!! I wonder too!! Maybe some of delicious pancakes will makes us consider it!" setExpression(smiling)
+
+Satya "Ughhhh fine finee!!!! I will treat you two! But you should help me, okay?!" disableChar(Mila) setExpression(annoyed)
+
+Player "That's what we called a deal!"
+
+Mila "Yeayy!! What a gentleman!!" disableChar(Satya) setExpression(smiling)
+
+Satya "Arrghh shut up!!! Anyway, didn't you said you want to go to diet?? Would you be okay eating pancakes??" disableChar(Mila) setExpression(annoyed)
+
+Player "Auch... You're right..."
+
+Satya "Then, it's better for me not to treat you sweet things, right?? Okay then, that's the deal!" setExpression(smiling)
+
+"You guys help me and I'll treat you iced mineral water cause it's good for diet!!" setExpression(smiling)
+
+Mila "Hey!! That's a foul play!!" setExpression(annoyed) disableChar(Satya)
+
+Player	"Ugh.... Wait youu-!!!" disableChar(Mila)
+
+Narrator "You feel happy!!!" setStatus(happiness[5])
+
+closeDialogue() reloadLastChapterProgress()

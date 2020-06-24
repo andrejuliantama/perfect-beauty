@@ -1,0 +1,19 @@
+Player	"Eum... It's okay Mila. You can have it all." playSound(CorrectAnswer)
+
+Mila "Eh??? Are you sure??" setExpression(default)
+
+Satya "Woahh, look at her with her determination towards her diet!! Amazing, should I say!!" disableChar(Mila) setExpression(smiling)
+
+Player "You're mocking me, huh, Satya? Anyway, after this we're going to eat together... So I should beware of calories I consume for today..."
+
+Mila "You're amazing, Player!! It's a shame we can't share it all, but thank you!" disableChar(Satya) setExpression(smiling)
+
+Satya "To celebrate your determination, shall I treat you a dessert then?" disableChar(Mila) setExpression(smiling)
+
+Player "You're going to pay for this Satya. Stop making fun of me!!!"
+
+Satya "Hahahaha!!!" setExpression(smiling)
+
+Narrator "You feel happy!!!" disableChar(Satya) setStatus(happiness[5])
+
+closeDialogue() reloadLastChapterProgress()

@@ -1,0 +1,19 @@
+Satya "Hey you guys!! We can't go to bookstore today! Help me doing my homework!" setExpression(default) playMusic(VisualNovel)
+
+Player "What?? Who are you to talk like that??"
+
+Satya "Uh... C'mon... You guys need to help me! Okay? I know you guys are the best out of the best out there!" setExpression(thinking)
+
+"Please, help this poor young boy...." setExpression(thinking)
+
+Mila "......." setExpression(thinking) disableChar(Satya)
+
+Player "......." disableChar(Mila)
+
+Satya "HEY! What's with this long paused??? C'mon! Help me won't you??" setExpression(annoyed)
+
+Mila "What should we do, Player?" setExpression(thinking) disableChar(Satya)
+
+Player "Well-....."
+
+makeChoice(Help=him:Go=to=bookstore)

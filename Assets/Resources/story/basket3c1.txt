@@ -1,0 +1,15 @@
+Player "I won't be affected by his words!" playSound(CorrectAnswer)
+
+"No, it's okay. I'm just a little tired and will be back to practice after rest a bit. That doesn't bother you, right?"
+
+Rizqi "Of course, rest as much as you can. See you, then." setExpression(default)
+
+Player "Okay...."
+
+"Hmm? I don't think he really meant to insulted me... Maybe it just his way of talk that sounds rude..." disableChar(Rizqi)
+
+"I should keep it in mind then. Thank God I didn't take his words seriously...."
+
+Narrator "You feel confident!!!" setStatus(confident[5])
+
+closeDialogue() reloadLastChapterProgress()

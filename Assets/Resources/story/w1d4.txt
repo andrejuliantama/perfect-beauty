@@ -1,0 +1,21 @@
+Player "Okay, let’s decide what to do for tomorrow!" loadScene(Laptop) playMusic(Laptop)
+
+closeDialogue()
+
+Satya "Hey Player! I think this week I haven't see you and Mila at canteen? Have you finally being broke and desperate?" loadScene(Classroom) setExpression(default) playMusic(VisualNovel)
+
+Player "I'm not broke and desperate! Grrr…."
+
+"It's just… Actually I'm on diet."
+
+Satya "Pffhtt!!! You?! Diet?? Hahahahaha!!! What a funny pun in this sunny morning." setExpression(smiling)
+
+Player "I'm not joking and It's already evening! Well… At least this week I already tried to… do it."
+
+Satya "I bet you will give up next week." setExpression(smiling)
+
+Player "Grrr… Satya, you-…."
+
+"I will...."
+
+makeChoice(Prove=it=to=him=that=I=can=do=it!:Can=I=really=do=it=though…?)

@@ -1,0 +1,21 @@
+Player "Emm... Actually I am trying to raise my fitness because I want to reach my body goals..." playSound(CorrectAnswer)
+
+Female Member 1 "Oh my! What a sudden decision! Do this means you're on diet too?? What did you eat for a day? Does it effective??"
+
+Player "I try to eat less food and snack in daily basis. But I just started doing this you know? There's nothing I can share right now, hahaha"
+
+Female Captain "Well, If that's the case I guess what I can say to you is 'good luck'? I'm not a pro in this topic, so I have no tips or anything I can say lol"
+
+Female Member 1 "It's not like you ever try on dieting captain! You already had a very toned body! You won't understand how it feels to had a curvy body like us!"
+
+Female Captain "Hey! Don't blame me, okay? I got this body because I love exercise! So, back to the topic. Player, as long as you're not overdo it, I'll always root for you. Good luck to get your body goals."
+
+Female Member 1 "I'll join too! So let's try our best, okay!"
+
+Player "Thank you guys! I'll practice hard!"
+
+Player "They're rooting for me!! I'm so glad! I will exercise more than before from today!"
+
+Narrator "You feel happy!!!" setStatus(happiness[5])
+
+closeDialogue() reloadLastChapterProgress()

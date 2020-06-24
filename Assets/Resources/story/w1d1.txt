@@ -1,0 +1,9 @@
+Player "Okay, I think for this month I will try my best to raise my fitness!!" loadScene(Laptop) playMusic(Laptop)
+
+"I’ll go to basketball more than I already had before!"
+
+"Okay, let’s decide what to do for tomorrow!"
+
+closeDialogue()
+
+loadScene(Classroom) loadChapter(w1d1BeforeActivity)

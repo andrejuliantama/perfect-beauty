@@ -1,0 +1,271 @@
+Narrator "Hello! Welcome to this game!" setBackground(Black) playMusic(Intro)
+
+"Before we start, can you answer this question?"
+
+"What is your name?"
+
+insertPlayerName()
+
+"Which one do you think you are?" initialChoice()
+
+"Okay, thank you for answering all the question!"
+
+"Happy Playing, Player!"
+
+Student 1 "Hey, did you heard about that pretty student in class C?"
+
+Student 2 "Oh! Do you mean, Sisca? That girl who looks like a model? I bet every guy in this school had a crush on her."
+
+Student 1 "Yeah! The one that has slender body and beautiful face!"
+
+"Ahh... It must be nice to have everyone eyes on you. But thank God she's not our classmate! I would feel insecure everytime if I had to look at her everyday!"
+
+Student 2 "Ah! You’re right! Thank goodness most of girls in our class looks ordinary and not that attractive!"
+
+Player "......."
+
+setBackground(classroom)
+
+Mila "......."
+
+"Um… They sure talk so loud, aren’t they?" setExpression(annoyed)
+
+Satya "What an annoying topic. Does girls really care about that kind of stuff?" setExpression(annoyed) disableChar(Mila)
+
+Mila "What do you mean?" setExpression(annoyed) disableChar(Satya)
+
+Satya "Being pretty, popular, and stuff… Does it really bother you all?" setExpression(annoyed) disableChar(Mila)
+
+Mila "I mean… To begin with, things like being popular and pretty already like a different world for us…" setExpression(annoyed) disableChar(Satya)
+
+"We don’t even try to imagine being a popular girl in school… Right, Player?" setExpression(annoyed)
+
+Player "Well… Um, yeah…"
+
+Mila "And how about you, Satya? Did you also see Sisca in the way like how they said it earlier?" setExpression(annoyed)
+
+Satya "I mean, she is indeed pretty. But other than that, I don’t really know her character, so… that’s it. I’m not that interested." setExpression(thinking) disableChar(Mila)
+
+Player "I guess we can’t compare Satya to one of that guys."
+
+Satya "Hey, what do you mean! Don’t tell me you really did feel jealous about her?"	setExpression(annoyed)
+
+"You can’t compare yourself to her, you know. Both of you are totally different."
+
+Player "…. Well, I only think that it must be nice to be pretty and treated in such a good way…"
+
+Mila "Do you mean all this time you’ve been treated badly?" setExpression(thinking) disableChar(Satya)
+
+Player "No, no! I just-…"
+
+"Actually It kinda pissed me off when they said things about us being ordinary and stuff…"
+
+Mila "Hey Player, are you okay? Did something happen?" setExpression(thinking)
+
+Player "Uh, I’m okay. Sorry… It’s nothing important"
+
+Satya "Well well. You two can finish your girly chit chat. I’ll go to canteen with my classmate. Byee!!" setExpression(annoyed) disableChar(Mila)
+
+Player "Ahhh.... And he just gone like that... ckckck" disableChar(Satya)
+
+Mila "Hahaha, Satya sure is different don’t you think?"setExpression(smiling)
+
+"He’s still playing with us even though he had a lot of friends. He even said he didn’t take interest in Sisca!" setExpression(smiling)
+
+Player "Well, as expected of him."
+
+"Mila and Satya are my close friend since middle school. Now, we're currently a second year student in our high school." disableChar(Mila)
+
+"Mila, and I are a classmate, and Satya is from a different class. But he often play to our class just like before."
+
+"Our school have about twelve class for each grade. Because of that, they're many students from different classes who don't know each other yet."
+
+"But of course this statement doesn't apply to that popular students. Without even trying, they already has everyone eyes on them."
+
+Mila "Player, Have you ever seen this ‘Sisca’ before?" setExpression(default)
+
+Player "Well, yeah... She’s often come to watch the basketball club, so I know her."
+
+Mila "Oh? Did she also play basket with your team?" setExpression(default)
+
+Player "Nah, she just… you know, make the guys excited for being watched by pretty girls."
+
+Mila "Ohh…. This evening is also your practice day, right? That means you will meet her again!"	setExpression(smiling)
+
+Player "Uhh… Why did you make it sounds like a delightment?"
+
+Mila "Why? Did you not like it when she’s around?" setExpression(default)
+
+Player "Well… It’s not like I didn’t like it…"
+
+Mila "Well, nevermind then! Let’s go to canteen! We will grab some crepes, right? Today I want a strawberry and banana flavor!"	setExpression(smiling)
+
+Player "Yeah, sure okay! Let’s go!"
+
+disableChar(Mila) setBackground(black)
+
+Player "It’s not that I didn’t like Sisca…"
+
+"It just… "
+
+"It just annoyed me the way people treat her differently."
+
+setBackground(SportsField)
+
+Player "I joined basketball club at school. The members often practice every day after school." playSound(basketball)
+
+"I usually joined practice for at least twice per week. I did my best and enjoy it."
+
+"This evening, I decided to join the practice."
+
+Female Captain "Player, hello! Do you want to warm up together?"
+
+Player "Sure! Please wait, I will take the ball."
+
+Male Member 1 "Hey guys! There she is! She’s coming again today!"
+
+Male Member 2 "Whoa! That’s her!"
+
+setBackground(SiscaIntro)
+
+Sisca "Hello, please do your best for today practice." setExpression(default) disableChar(Sisca)
+
+Dewi "Hey, Sisca! Let's sit and watch them from there! I think it's is a nice spot!" setExpression(default) disableChar(Dewi)
+
+Sisca "Sure. I agree." setExpression(default) disableChar(Sisca)
+
+Male Member 1 "Guys, you see. I will win today’s play!"
+
+Male Member 3 "Nah, I’ll be the one with highest score today!"
+
+Female Captain "Huh… They started it again, huh…"
+
+Female Member 1	"Well, what can we do? Just why did she came when she’s doing nothing, anyway?"
+
+setBackground(SportsField)
+
+Rizqi "Hey, girls team! Why you girls sounds so pissed off? Can’t we have some fun?" setExpression(annoyed)
+
+Female Member 1 "Well, sorry for disturbing your fun, then. Just to remind you all, we’re here for practice, not for play and fighting over a girl!"
+
+Male Member 1 "Hahaha!! Hey, did you girls get jealous over Sisca?"
+
+Male Member 2 "It’s not our fault okay? But to be honest, you guys still got a long way to be like her."
+
+Rizqi "If only some of you just as attractive as Sisca, I think the girl team of basketball club will be more enjoyable to watch." setExpression(default)
+
+Female Member 2	"Hey! We can hear you! How dare you-"
+
+Putra "Hey, hey, what’s with all this commotion?" setExpression(surprised) disableChar(Rizqi)
+
+Female Member 1	"Oh! Putra!"
+
+Player "He’s Putra, captain of male basketball team. There’s a rumor that Sisca and him been dating, that’s why she keep on coming to watch the basketball club play."
+
+"Rizqi is his bestfriend, and seems like both of them are fond of Sisca. But they didn’t seem to care whoever win this battle royale."
+
+Rizqi "Nah, it’s nothing. C’mon, let’s warming up together!" setExpression(default) disableChar(Putra)
+
+Putra "Well? Let’s us all go and warm up together. You guys coming, right?" setExpression(default) disableChar(Rizqi)
+
+Female Member 1 "O-of course!"
+
+Female Captain "Let’s go! C’mon, Player!"
+
+Player "Both Sisca and Putra are popular because they had a beautiful and ideal appereance. For a glance, people can tell that everybody really are treat them different."
+
+"Do appereance really had that big impact for someone?" setBackground(Black) disableChar(Putra)
+
+"........."
+
+Player "Finally I’m home… Today is really tiring me somehow…" setBackground(Room)
+
+"There’s so many things going inside my head."
+
+"About being popular and pretty like Sisca… Am I really is jealous?"
+
+"Are things that they all said were true?"
+
+setBackground(Black)
+
+Student 2 "Thank goodness most of girl in our class looks ordinary and not that attractive!"
+
+Mila "I mean… To begin with, things like being popular and pretty already like a different world for us… Right, Player?" setExpression(annoyed)
+
+Satya "You can’t compare yourself to her, you know. Both of you are totally different." setExpression(annoyed) disableChar(Mila)
+
+Rizqi "If only some of you just as attractive as Sisca, I think the girl team of basketball club will be more enjoyable to watch." setExpression(default) disableChar(Satya)
+
+Player "…. Ordinary" setBackground(MirrorIntro) disableChar(Rizqi)
+
+"… Unattractive"
+
+"… Fat"
+
+"...."
+
+"… That’s… Me."
+
+"Am I really jealous?"
+
+"Do I really want to be like her?"
+
+"Beautiful, Pretty, and gain all the attention from everyone?"
+
+"Will everything become better if I change myself?" setBackground(MirrorIntroSisca)
+
+"Will they treat me better? Like how they treat her?"
+
+"Will my world changes?"
+
+"Yes…. Right." setBackground(MirrorIntro)
+
+"Nothing will come if I just sit and doing nothing."
+
+"This kind of life isn't fun. And so disappointing."
+
+"I will try… To change."
+
+"I will try to change this ugly look in this mirror!"
+
+"I don't want live a sad life forever with this body!"
+
+"I will become prettier… And have a better life."
+
+"I will do it!"
+
+"Okay, first… What should I do?" setBackground(Room)
+
+"Oh yes! I will try to find something in the internet!"
+
+"..." setBackground(youtube1)
+
+"Okay… Let me type something."
+
+"How to become attractive"
+
+"..." setBackground(youtube2)
+
+"Oh geez… All this people here is already skinny and pretty… It’s not for someone like me!"
+
+"Then what should I do… Maybe I should start exercising to have a better body first?"
+
+"..." setBackground(youtube3)
+
+"..." setBackground(youtube4)
+
+"Hmmm... 'Diet and constant workout', huh?
+
+"I think playing basketball everyday in school should do more than enough exercise for me. I run 2 until 3 lap just for warming up after all."
+
+"I will try to eat less snack and dessert too…"
+
+"Ugh… This will be really hard…"
+
+"But…"
+
+"To change this ugly girl…" setBackground(MirrorIntro)
+
+"I must work hard!!!"
+
+nextDay() loadChapter(w1d1)

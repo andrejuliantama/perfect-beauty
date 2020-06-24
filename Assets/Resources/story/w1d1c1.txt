@@ -1,0 +1,15 @@
+Player "Thank you Mila! I know you will rooting for me!" playSound(CorrectAnswer)
+
+Mila "Of course Player!" setExpression(default)
+
+Player "Then, I will go to the toilet first. I see you in class later!"
+
+Mila "……" setExpression(thinking)
+
+disableChar(Mila)
+
+Narrator "You feel happy!!!" setStatus(happiness[5])
+
+closeDialogue() loadScene(Activity)
+
+nextDay() loadChapter(w1d2)

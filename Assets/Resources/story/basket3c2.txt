@@ -1,0 +1,11 @@
+Player	"I think I will go home earlier then...."
+
+Rizqi "Oh? You really can't take it, aren't you? Well, It's better than having you passed out here anyway. It would be troublesome to carry you out of here." setExpression(default)
+
+Player "...... Am I really look that pathetic?" disableChar(Rizqi)
+
+"I guess I better go home quickly...."
+
+Narrator "You feel bad..." setStatus(confident[-5])
+
+closeDialogue() reloadLastChapterProgress()

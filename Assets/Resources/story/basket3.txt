@@ -1,0 +1,15 @@
+Player "Huff.... huff...." loadScene(SportsField) playMusic(VisualNovel)
+
+Player "Oh no... I think I need to take a short break..."
+
+Rizqi "Whoa, whoa....  Look at you! It's not even one round yet, and you're already that tired?" setExpression(annoyed)
+
+Player "Em... Well-"
+
+Rizqi "Oh, sorry sorry. Didn't mean to judge you or anything, okay? I guess, each type of body really does had different endurance after all." setExpression(default)
+
+Player "Ugh... Why he must say it like that.... It's sounds like he insulted my body...." 
+
+"I-"
+
+makeChoice(Keep=practicing:Going=home)
